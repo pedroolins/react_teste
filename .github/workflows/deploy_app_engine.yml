@@ -29,8 +29,8 @@ jobs:
       - name: verificando versão do node.js
         run: node --version
       
-      - name: deploy to app engine
-        run: gcloud app deploy
+      # - name: deploy to app engine
+      #   run: gcloud app deploy
 
 
 
