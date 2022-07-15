@@ -43,8 +43,9 @@ function App() {
       
       { user && 
         <div>
-            <h1> CUPOM: LUIZ REI DO SEXO - 06/09</h1>
             <img src = {user.picture}></img>
+            <h2>{user.name}</h2>
+            <h2>{user.name}</h2>
             <h2>{user.name}</h2>
             <h3>{user.email}</h3>
         </div>
