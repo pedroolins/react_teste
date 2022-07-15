@@ -4,9 +4,6 @@ on:
   push:
     branches: [main]
 
-env:
-  TESTE: joao
-
 jobs:
   deploy:
     name: Start continuous deployment
